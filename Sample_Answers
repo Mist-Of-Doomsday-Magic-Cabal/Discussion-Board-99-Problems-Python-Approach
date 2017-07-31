@@ -17,3 +17,9 @@ def my_length(alist):
         i = i + 1
     return i
    
+# P5
+def my_reverse(alist):
+    result_list = []
+    for element in alist:
+        result_list.append(0, element)
+    return result_list

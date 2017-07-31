@@ -25,6 +25,15 @@ def my_reverse(alist):
     return result_list
 
 # P6
-def palindrome-p(alist):
+
+# Python style. Why? See "Boolean logic in Python"
+def palindrome_p(alist):
     return cmp(alist, my_reverse(alist))
+    
+# Clearer to users    
+def palindrome_another(alist):
+    if cmp(alist, myreverse(alist)) == 0:
+        print ("The list is palindrome")
+    else:
+        print ("The list is not palindrome")
     

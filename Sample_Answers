@@ -48,5 +48,7 @@ def my_flatten(lol):
     else:
         if not isinstance(lol[0], list):
             result_list.append(lol[0])
+            result_list.extend(my_flatten(lol[1:]))
         else:
             result_list.extend(my_flatten(lol[0]))
+            result_list.extend(my_flatten(lol[1:]))

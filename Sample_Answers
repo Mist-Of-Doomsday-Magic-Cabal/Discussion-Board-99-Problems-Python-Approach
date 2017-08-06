@@ -40,6 +40,7 @@ def palindrome_another(alist):
         print ("The list is not palindrome")
     
 # P7
+# I just write these codes on Chrome. I haven't tested them.
 def my_flatten(lol):
     result_list = []
     if len(lol) == 0:

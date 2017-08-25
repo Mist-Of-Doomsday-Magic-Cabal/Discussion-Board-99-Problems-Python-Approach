@@ -39,16 +39,3 @@ def palindrome_another(alist):
     else:
         print ("The list is not palindrome")
     
-# P7
-# I just write these codes on Chrome. I haven't tested them.
-def my_flatten(lol):
-    result_list = []
-    if len(lol) == 0:
-        return my_reverse(result_list)
-    else:
-        if not isinstance(lol[0], list):
-            result_list.append(lol[0])
-            result_list.extend(my_flatten(lol[1:]))
-        else:
-            result_list.extend(my_flatten(lol[0]))
-            result_list.extend(my_flatten(lol[1:]))

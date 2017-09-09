@@ -10,4 +10,4 @@ Links:
 <a href="https://github.com/PsyTian/99-Problems-in-Python">PsyTian's approach</a>
 
 
-<a href="https://github.com/Mist-Of-Doomsday-Magic-Cabal/Git-Cheatsheet>Git-Cheatsheet</a>
+<a href="https://github.com/Mist-Of-Doomsday-Magic-Cabal/Git-Cheatsheet">Git-Cheatsheet</a>
